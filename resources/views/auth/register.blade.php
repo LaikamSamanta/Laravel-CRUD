@@ -75,7 +75,7 @@
                     </div>
                     {{-- Submit --}}    
                     <div class="card-actions justify-end pt-4">
-                        <button type="submit" class="btn btn-primary px-8">
+                        <button type="submit" data-testid="register-button" class="btn btn-primary px-8">
                             Reģistrēties
                         </button>
                     </div>

@@ -7,6 +7,10 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\RegisteredUserController;
 use App\Http\Controllers\Auth\SessionController;
 
+Route::get('/welcome', function () {
+    return '<html><body>Welcome!</body></html>';
+});
+
 Route::middleware('auth')->group(function () {
     Route::resource('tasks', TaskController::class);
     Route::get('/', [TaskController::class, 'index']); // optional home route
