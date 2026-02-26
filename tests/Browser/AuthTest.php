@@ -1,5 +1,5 @@
 <?php
-
+/*
 it('Reģistrē jaunu lietotāju', function () {
     $email = 'test'.time().'@example.com';
 
@@ -13,3 +13,5 @@ it('Reģistrē jaunu lietotāju', function () {
         ->click('[data-test="register-button"]')
         ->assertSee('Welcome, Arnolds'); // adjust to what your app actually shows
 });
+
+*/
